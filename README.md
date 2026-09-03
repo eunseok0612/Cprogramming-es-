@@ -1,3 +1,0 @@
-# Cprogramming-es-
-
-ㄹ
