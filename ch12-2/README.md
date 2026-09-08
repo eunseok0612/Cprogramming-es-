@@ -1,5 +1,4 @@
-# Chapter 12-2
-## 실습과제 1
+# 실습과제 1
 
 ```
 char ch = 'A';
@@ -17,7 +16,7 @@ double db = 3.4;
 | *&in | 10 | int |
 | *&db | 3.4 | double |
 ----------
-## 실습과제 2
+# 실습과제 2
 
 ▼ 소스코드 설명
 ```
@@ -73,13 +72,13 @@ return 0;
 <img width="2350" height="1226" alt="image" src="https://github.com/user-attachments/assets/1caa73bf-4383-40ce-b80a-b60c21695308" />
 
 ----------
-## 실습과제 3
+# 실습과제 3
 <img width="750" height="250" alt="image" src="https://github.com/user-attachments/assets/6e06165f-c6aa-49f3-b673-9da81f27fccc" />
 
 * 125를 정수형 데이터가 저장된 메모리 주소로 사용하기 위해
 * 125를 강제로 메모리 주소로 변환해 그 주소에 데이터를 저장하려 했기 때문
 ----------
-## 실습과제 4
+# 실습과제 4
 
 ▼ 소스코드 설명
 ```
@@ -123,7 +122,7 @@ return 0;
 <img width="2350" height="1226" alt="image" src="https://github.com/user-attachments/assets/fb4fb623-6772-4d86-8f2b-5244b3ca940e" />
 
 ----------
-## 실습과제 5
+# 실습과제 5
 
 ▼ 소스코드 설명
 ```
