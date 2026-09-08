@@ -69,7 +69,7 @@ return 0;
 - 0을 반환하고 메인함수 정상 종료
 
 ▼ 실행결과
-<img width="2350" height="1226" alt="image" src="https://github.com/user-attachments/assets/1caa73bf-4383-40ce-b80a-b60c21695308" />
+<img width="418" height="91" alt="스크린샷 2026-09-08 205626" src="https://github.com/user-attachments/assets/8165f81e-d38b-45cb-a83d-f6f6d57bf110" />
 
 ----------
 # 실습과제 3
@@ -119,7 +119,7 @@ return 0;
 - 0을 반환하고 메인함수 정상 종료
 
 ▼ 실행결과
-<img width="2350" height="1226" alt="image" src="https://github.com/user-attachments/assets/fb4fb623-6772-4d86-8f2b-5244b3ca940e" />
+<img width="263" height="54" alt="스크린샷 2026-09-08 215018" src="https://github.com/user-attachments/assets/a2a96f7a-2eb2-46a7-9ce1-4a228f44a29c" />
 
 ----------
 # 실습과제 5
@@ -190,4 +190,4 @@ return 0;
 - 0을 반환하고 메인함수 정상 종료
 
 ▼ 실행결과
-<img width="2350" height="1226" alt="image" src="https://github.com/user-attachments/assets/1cba956d-797e-4b97-9c68-99391d2355bd" />
+<img width="301" height="95" alt="스크린샷 2026-09-08 221624" src="https://github.com/user-attachments/assets/27adbe61-f980-44d1-84c7-518439c707ab" />
