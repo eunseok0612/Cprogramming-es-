@@ -58,9 +58,7 @@ pt의 주소에 저장된 값을 double로 읽는다는 뜻이다.
 | `&db` | **105** | **double*** |
 
 # 실습과제 4
-```
 ## 다음 코드처럼 변수 a,b,c를 선언하고 각 변수의 주소를 주소연산자(&)를 이용하여 화면에 다음처럼 출력하라.
-```
 <img width="1217" height="147" alt="스크린샷 2026-09-04 015648" src="https://github.com/user-attachments/assets/0cd8b544-05c4-4761-82c0-454c0bffe9fd" />
 
 # 소스코드 설명
