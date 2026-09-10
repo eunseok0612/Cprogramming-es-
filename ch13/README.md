@@ -125,3 +125,121 @@ return 0;
 - 0을 반환하고 메인함수 정상 종료
 
 ▼ 실행결과
+<img width="327" height="244" alt="스크린샷 2026-09-10 211126" src="https://github.com/user-attachments/assets/344a40f2-9c1e-46ea-a765-25f29c5d0dcf" />
+
+## 실습과제 3
+
+* a++과 ++a는 순서의 차이가 있다. a++을 출력했을 때 값이 출력되는 게 우선이지만, ++a를 출력할 경우 1을 더하는 것이 우선이 된다.
+* 배열의 이름은 증감 연산으로 변경할 수 없기 때문에 a++는 사용할 수 없다. 그렇기 때문에 포인터 변수 p를 선언하여 배열의 시작 주소를 저장하고, *p++를 이용한다.
+
+▼ 소스코드 설명
+```
+#include <stdio.h>
+```
+- scanf, printf, 등 여러가지 라이브러리가 들어있는 stdio.h를 포함해라.
+```
+int main(void)
+```
+- 메인함수 시작
+```
+int a[] = { 10, 20, 30 };
+```
+- a라는 배열을 10, 20, 30으로 초기화
+```
+int* p = &a;
+```
+- a의 주소를 p에 저장
+```
+int i, sum = 0;
+```
+- i, sum이라는 변수를 선언하고 sum에 0을 저장
+```
+for (i = 0; i < 3; i++)
+  sum += *p++;
+```
+- 3번 반복
+- a의 값을 sum에 더하기
+```
+printf("sum:%d\n", sum);
+```
+- 총합 출력
+```
+return 0;
+```
+- 0을 반환하고 메인함수 정상 종료
+
+▼ 실행결과
+<img width="293" height="96" alt="스크린샷 2026-09-10 211424" src="https://github.com/user-attachments/assets/35fa626c-093c-4529-bb50-ac4fd66b09d0" />
+
+## 실습과제 4
+
+▼ 소스코드 설명
+```
+#include <stdio.h>
+```
+- scanf, printf, 등 여러가지 라이브러리가 들어있는 stdio.h를 포함해라.
+```
+int main(void)
+```
+- 메인함수 시작
+```
+double arr[5];
+```
+- 5개의 방을 가진 실수형 arr 배열 선언
+```
+double* ptr;
+```
+- ptr이라는 포인터 선언
+```
+int i;
+```
+- i라는 정수형 변수 선언
+```
+ptr = arr;
+```
+- arr의 주소를 ptr에 저장
+```
+for (i = 0; i < 5; i++) {
+  printf("실수 입력: ");
+  scanf("%lf", ptr++);
+}
+```
+- 5번 반복
+- 실수 입력하라는 메시지 출력
+- 실수 입력
+```
+ptr = arr;
+```
+- arr의 주소를 ptr에 저장
+```
+for (i = 0; i < 5; i++) {
+  *ptr += 2;
+  ptr++;
+}
+```
+- 5번 저장
+- 입력된 값에 +2
+- ptr = ptr + 1;
+```
+ptr = arr;
+```
+- arr의 주소를 ptr에 저장
+```
+printf("\n2씩 증가된 배열의 값:\n");
+```
+- ptr 값 출력 메시지 출력
+```
+for (i = 0; i < 5; i++)
+  printf("%.2f ", *ptr++);
+```
+- 5번 반복
+- ptr 값 출력
+```
+return 0;
+```
+- 0을 반환하고 메인함수 정상 종료
+
+▼ 실행결과
+<img width="716" height="175" alt="스크린샷 2026-09-10 211916" src="https://github.com/user-attachments/assets/3ae6f879-ecf2-4224-98a0-a89ba8639937" />
+
+
