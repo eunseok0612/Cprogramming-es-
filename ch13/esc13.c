@@ -5,8 +5,8 @@
 // **********************************************
 #define _CRT_SECURE_NO_WARNINGS
 #pragma warning(disable:6031)
-//실습과제2
 
+//실습과제2
 #include <stdio.h>
 int main(void)
 {
