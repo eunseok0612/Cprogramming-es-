@@ -1,9 +1,8 @@
 # 실습과제 1
 
+##배열명의 의미를 설명하라.
 ```
-char ch = 'A';
-int in = 10;
-double db = 3.4;
+배열 첫번째 요소의 주소이다.
 ```
 <img width="150" height="300" alt="image" src="https://github.com/user-attachments/assets/16a8b3f7-9754-4dc0-9d3e-a043f4aadb90" />
 
