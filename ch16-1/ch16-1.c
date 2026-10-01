@@ -72,7 +72,7 @@ int main(void) {
 	printf("위치는 %d행 %d열 \n", row, column);
 
 	return 0;
-}4
+}
 
 //실습과제 4
 #include <stdio.h>
