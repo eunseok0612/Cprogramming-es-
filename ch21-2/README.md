@@ -18,5 +18,20 @@ fgets함수이다.
 ```
 ## 널문자('\n')와 널포인터(NULL)의 용도를 설명하시오.
 ```
-널문자(\n')는 문자열의 끝을 가리키고, 널포인터(NULL)는 포인터가 아무것도 가리키지 않고있음을 나타낸다.
+널문자(\n')는 문자열의 끝을 가리키고, 널포인터(NULL)는 포인터가 아무것도 가리키지 않고 있음을 나타내며 쓰함수가 오류가 생겼을 때 결과가 없다는 뜻으로 널포인터를 반환한다.
 ```
+---
+# 실습과제2
+<img width="820" height="267" alt="스크린샷 2026-10-27 220122" src="https://github.com/user-attachments/assets/4712fdac-ea36-4c74-bbf1-671fade0f4d5" />
+
+---
+# 실습과제3
+<img width="928" height="238" alt="스크린샷 2026-10-27 220034" src="https://github.com/user-attachments/assets/bac84a73-75cd-4e89-ac0b-fcab450102f3" />
+
+---
+# 실습과제 4
+<img width="390" height="107" alt="스크린샷 2026-10-27 221101" src="https://github.com/user-attachments/assets/322370d6-48ee-4ca4-8223-e2d3dd8f3369" />
+
+---
+# 실습과제 5
+<img width="356" height="97" alt="스크린샷 2026-10-27 222405" src="https://github.com/user-attachments/assets/c05d70c1-f244-4f21-9534-1a06fdb52f56" />
