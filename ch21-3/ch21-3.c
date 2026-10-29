@@ -1,8 +1,8 @@
 #define _CRT_SECURE_NO_WARNINGS // 보안오류방지
 #pragma warning(disable:6031)  // 리턴값관련 경고 방지
+//실습과제1
 #include<stdio.h>
 #include<string.h>
-//실습과제1
 int main()
 {
 	char str1[100] = "";
